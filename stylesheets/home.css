@@ -541,10 +541,10 @@ body.home {
 
 @media all and (min-width: 979px) {
     .home .navbar > .navbar-inner > .container-fluid > .top-apply {
-        margin-top: -13px;
-        margin-bottom: -13px;
+        margin-top: -5px;
+        margin-bottom: -10px;
         height: 60px;
-        line-height: 60px;
+        line-height: 50px;
         font-size: 20px;
     }
 
@@ -633,7 +633,7 @@ body.home {
 
     .home .navbar-inner {
         position: relative;
-        height: 40px;
+        height: 60px;
         padding: 10px 0;
     }
 

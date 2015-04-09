@@ -8821,8 +8821,7 @@ a:hover {
 }
 
 .structure-section {
-    margin-right: auto !important;
-    margin-left: auto !important;
+    padding-left: 100px !important;
 }
 /* line 2, ../../views/scss/homepage/_structure.sass */
 .structure-section .structure-header {
@@ -8833,10 +8832,13 @@ a:hover {
 .structure-section h1 {
     margin: auto 0px;
     text-align: center;
+    color: #9f1a25 !important;
+    font-weight: lighter !important;
 }
 
 .structure-section h4 {
     font-size: 18px !important;
+    color: #9f1a25 !important;
 }
 /* line 8, ../../views/scss/homepage/_structure.sass */
 .structure-section .graph {
@@ -8852,6 +8854,7 @@ a:hover {
 .structure-section .graph-weeks h4 {
     color: black;
     padding-bottom: 12px;
+    color: #9f1a25 !important;
 }
 /* line 17, ../../views/scss/homepage/_structure.sass */
 .structure-section .week {
@@ -8902,6 +8905,7 @@ a:hover {
 /* line 48, ../../views/scss/homepage/_structure.sass */
 .structure-section .final h4 {
     position: relative;
+    color: #9f1a25 !important;
 }
 /* line 51, ../../views/scss/homepage/_structure.sass */
 .structure-section .hiring {
@@ -8915,7 +8919,7 @@ a:hover {
 .structure-section .hiring h4 {
     position: relative;
     top: 135px;
-    color: white;
+    color: white !important;
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     transform: rotate(-90deg);
