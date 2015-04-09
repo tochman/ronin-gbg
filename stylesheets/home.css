@@ -240,3 +240,241 @@ body.home { color: #5e5e5e; font-family: "proxima-nova", 'Helvetica Neue', Helve
   .home #pricing .price { padding-bottom: 30px; } }
 
 /* Localized */
+
+/* line 2, ../../views/scss/homepage/_structure.sass */
+.structure-section .structure-header {
+    background-color: white;
+    padding-top: 30px;
+}
+/* line 5, ../../views/scss/homepage/_structure.sass */
+.structure-section h1 {
+    margin: auto 0px;
+    text-align: center;
+}
+/* line 8, ../../views/scss/homepage/_structure.sass */
+.structure-section .graph {
+    padding: 12px 10px 2px 10px;
+    background-color: white;
+}
+/* line 11, ../../views/scss/homepage/_structure.sass */
+.structure-section .graph-weeks {
+    padding-bottom: 30px;
+    background-color: white;
+}
+/* line 14, ../../views/scss/homepage/_structure.sass */
+.structure-section .graph-weeks h4 {
+    color: black;
+    padding-bottom: 12px;
+}
+/* line 17, ../../views/scss/homepage/_structure.sass */
+.structure-section .week {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+}
+/* line 24, ../../views/scss/homepage/_structure.sass */
+.structure-section .week:first-child {
+    border-left: 1px solid black;
+}
+/* line 26, ../../views/scss/homepage/_structure.sass */
+.structure-section .precourse {
+    height: 148px;
+    border: 1px #9f1a25 solid;
+    text-align: center;
+    padding: 2px;
+    -webkit-box-sizing: border-box;
+}
+/* line 32, ../../views/scss/homepage/_structure.sass */
+.structure-section .precourse p {
+    padding-top: 15px;
+    font-size: 12px;
+}
+/* line 35, ../../views/scss/homepage/_structure.sass */
+.structure-section .course {
+    text-align: center;
+    padding: 2px;
+    height: 148px;
+    background-color: #f0f0f0;
+}
+/* line 40, ../../views/scss/homepage/_structure.sass */
+.structure-section .course p {
+    padding-top: 15px;
+    font-size: 12px;
+}
+/* line 43, ../../views/scss/homepage/_structure.sass */
+.structure-section .final {
+    background-color: #f9f9f9;
+    height: 148px;
+    text-align: center;
+    padding: 0px !important;
+}
+/* line 48, ../../views/scss/homepage/_structure.sass */
+.structure-section .final h4 {
+    position: relative;
+}
+/* line 51, ../../views/scss/homepage/_structure.sass */
+.structure-section .hiring {
+    background-color: #9f1a25;
+    height: 148px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+/* line 57, ../../views/scss/homepage/_structure.sass */
+.structure-section .hiring h4 {
+    position: relative;
+    top: 135px;
+    color: white;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    padding: 0px;
+    margin: 0 0 0 14px;
+    width: 120px;
+}
+/* line 70, ../../views/scss/homepage/_structure.sass */
+.structure-section .medium-graph {
+    padding: 0px;
+    width: 100%;
+}
+/* line 73, ../../views/scss/homepage/_structure.sass */
+.structure-section .medium-graph .week-number {
+    width: 6.25%;
+    border: 1px red solid;
+    display: inline-block;
+}
+/* line 78, ../../views/scss/homepage/_structure.sass */
+.structure-section .medium-graph .week-area {
+    padding: 6px 0px;
+    height: 26px;
+    border-top: 1px black solid;
+    border-right: 2px black solid;
+}
+/* line 83, ../../views/scss/homepage/_structure.sass */
+.structure-section .medium-graph .week-area:last-child {
+    border-bottom: 1px black solid;
+}
+/* line 85, ../../views/scss/homepage/_structure.sass */
+.structure-section .medium-graph .vertical-number {
+    padding: 0px;
+    text-align: center;
+}
+/* line 88, ../../views/scss/homepage/_structure.sass */
+.structure-section .medium-graph .vertical-number .week-number {
+    padding: 6px 0px;
+    height: 26px;
+}
+/* line 92, ../../views/scss/homepage/_structure.sass */
+.structure-section .week-area {
+    padding: 6px 0px;
+    height: 26px;
+    border-top: 1px black solid;
+    border-right: 2px black solid;
+}
+/* line 97, ../../views/scss/homepage/_structure.sass */
+.structure-section .week-area:last-child {
+    border-bottom: 1px black solid;
+}
+/* line 99, ../../views/scss/homepage/_structure.sass */
+.structure-section .vertical-number {
+    padding: 0px;
+    text-align: center;
+}
+/* line 102, ../../views/scss/homepage/_structure.sass */
+.structure-section .vertical-number .week-number {
+    padding: 6px 0px;
+    height: 26px;
+}
+/* line 106, ../../views/scss/homepage/_structure.sass */
+.structure-section .vertical-graph {
+    padding-left: 9px;
+    margin-right: 10px;
+    position: absolute;
+    left: 15px;
+}
+/* line 112, ../../views/scss/homepage/_structure.sass */
+.structure-section .precourse-small {
+    height: 104px;
+    border: 1px #9f1a25 solid;
+    text-align: center;
+    padding: 2px;
+    -webkit-box-sizing: border-box;
+}
+/* line 118, ../../views/scss/homepage/_structure.sass */
+.structure-section .precourse-small .precourse-content {
+    margin-top: 15px;
+}
+/* line 120, ../../views/scss/homepage/_structure.sass */
+.structure-section .precourse-small .precourse-content h4 {
+    margin: 0px;
+}
+/* line 122, ../../views/scss/homepage/_structure.sass */
+.structure-section .precourse-small .precourse-content p {
+    margin: 0px;
+}
+/* line 125, ../../views/scss/homepage/_structure.sass */
+.structure-section .course-small {
+    position: relative;
+    height: 234px;
+    text-align: center;
+    padding: 2px;
+    background-color: #f0f0f0;
+}
+/* line 131, ../../views/scss/homepage/_structure.sass */
+.structure-section .course-small .course-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* line 135, ../../views/scss/homepage/_structure.sass */
+.structure-section .course-small .course-content h4 {
+    margin: 0px;
+}
+/* line 137, ../../views/scss/homepage/_structure.sass */
+.structure-section .course-small .course-content p {
+    margin: 0px;
+    padding: 0px;
+}
+/* line 141, ../../views/scss/homepage/_structure.sass */
+.structure-section .final-small {
+    background-color: #f9f9f9;
+    height: 52px;
+    text-align: center;
+}
+/* line 145, ../../views/scss/homepage/_structure.sass */
+.structure-section .final-small h4 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    margin: 0px;
+}
+/* line 151, ../../views/scss/homepage/_structure.sass */
+.structure-section .hiring-small {
+    background-color: #9f1a25;
+    height: 26px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+/* line 157, ../../views/scss/homepage/_structure.sass */
+.structure-section .hiring-small h4 {
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+/* line 161, ../../views/scss/homepage/_structure.sass */
+.structure-section .weeks-title-small {
+    padding: 0px;
+}
+/* line 163, ../../views/scss/homepage/_structure.sass */
+.structure-section .weeks-title-small h4 {
+    color: black;
+}

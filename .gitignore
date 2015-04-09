@@ -1,0 +1,7 @@
+# Mac finder artifacts
+.DS_Store
+*/.DS_Store
+
+# RubyMine project files
+.idea
+/.idea/*
