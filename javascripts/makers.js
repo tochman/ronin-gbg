@@ -7,7 +7,7 @@ var Makers   = Makers   || {},
 
   Makers.init = function() {
     $('#twitter-stream').tweetable({
-      username:   'MakersAcademy',
+      username:   'thomasochman',
       html5:      true,
       rotate:     true,
       replies:    false,

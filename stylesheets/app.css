@@ -8839,6 +8839,7 @@ a:hover {
 .structure-section h4 {
     font-size: 18px !important;
     color: #9f1a25 !important;
+    margin-top: 20px !important;
 }
 /* line 8, ../../views/scss/homepage/_structure.sass */
 .structure-section .graph {
@@ -8906,6 +8907,7 @@ a:hover {
 .structure-section .final h4 {
     position: relative;
     color: #9f1a25 !important;
+    margin-top: 0 !important;
 }
 /* line 51, ../../views/scss/homepage/_structure.sass */
 .structure-section .hiring {
@@ -8926,8 +8928,8 @@ a:hover {
     -webkit-transform-origin: 0% 0%;
     -moz-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
-    padding: 0px;
-    margin: 0 0 0 14px;
+    padding: 7px;
+    margin: 0 0 0 14px !important;
     width: 120px;
 }
 /* line 70, ../../views/scss/homepage/_structure.sass */
@@ -9090,7 +9092,7 @@ a:hover {
 
     /* line 178, ../../views/scss/homepage/_structure.sass */
     .hiring h4 {
-        margin: 0 0 0 14px;
+        margin: 0 0 0 14px !important;
     }
 }
 /* line 16, ../../views/scss/_homepage.sass */
