@@ -8821,7 +8821,7 @@ a:hover {
 }
 
 .structure-section {
-    padding-left: 100px !important;
+    padding-left: 80px !important;
 }
 /* line 2, ../../views/scss/homepage/_structure.sass */
 .structure-section .structure-header {
@@ -9083,6 +9083,10 @@ a:hover {
     .hiring h4 {
         margin: 0 0 0 9px;
     }
+
+    .structure-section {
+        padding-left: 5px !important;
+    }
 }
 @media only screen and (min-width: 64.063em) {
     /* line 175, ../../views/scss/homepage/_structure.sass */
@@ -9093,6 +9097,10 @@ a:hover {
     /* line 178, ../../views/scss/homepage/_structure.sass */
     .hiring h4 {
         margin: 0 0 0 14px !important;
+    }
+
+    .structure-section {
+        padding-left: 80px !important;
     }
 }
 /* line 16, ../../views/scss/_homepage.sass */
@@ -9463,7 +9471,27 @@ section .payment-plans-section {
     .life-at-makers a img {
         width: 73px;
     }
+    .structure-section {
+        padding-left: 0 !important;
+    }
+
+    .structure-section .final-small {
+        margin-top: -25px !important;
+    }
+
+    .structure-section .hiring-small {
+        margin-top: -15px;
+    }
+
+    .structure-section .hiring-small h4 {
+        color: #ffffff !important;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        padding-top: 2px;
+    }
 }
+
 /* line 1, ../../views/scss/_testimonials.sass */
 .testimonials-header {
     background-image: url(/images/backgrounds/martin.jpg);

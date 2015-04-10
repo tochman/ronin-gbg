@@ -1,3 +1,14 @@
+.btn-navbar
+{
+    background: transparent !important;
+    border: 0 !important;
+}
+
+.btn-navbar .icon-bar {
+    color: #ab1a26 !important;
+    background-color: #ab1a26 !important;
+}
+
 @media only screen and (width: 979px) {
     .home .navbar-inner > .container-fluid .btn-default {
         margin: 5px 0 0 0;
