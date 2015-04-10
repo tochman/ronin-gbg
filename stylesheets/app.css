@@ -9490,6 +9490,15 @@ section .payment-plans-section {
         transform: rotate(0deg);
         padding-top: 2px;
     }
+
+    .structure-section .vertical-number .week-number {
+        padding: 0px 0px;
+        height: 26px;
+    }
+
+    .structure-section .course-small .course-content h4 {
+        margin-top: 0px !important;
+    }
 }
 
 /* line 1, ../../views/scss/_testimonials.sass */
