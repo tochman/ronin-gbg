@@ -679,7 +679,7 @@ body.home {
     text-transform: none;
     text-align: left;
     font-size: 40px;
-    font-weight: lighter;
+    font-weight: lighter !important;
 }
 
 .home .panel h3.text-center {
@@ -1105,7 +1105,7 @@ body.home {
 }
 
 .home #panel-technologies h4 {
-    font-weight: lighter;
+    font-weight: lighter !important;
     margin-bottom: 25px;
     padding: 24px 0px;
     background-color: #dbd0c2;
@@ -1231,7 +1231,7 @@ body.home {
     padding: 100px 20px 56px 20px;
     margin-bottom: 30px;
     line-height: 22px;
-    font-weight: lighter;
+    font-weight: lighter !important;
     background-color: #C84540;
     text-align: left;
     font-size: 15px;
@@ -1268,7 +1268,7 @@ body.home {
     padding: 20px 0;
     background-color: #C84540;
     color: white;
-    font-weight: lighter;
+    font-weight: lighter !important;
 }
 
 @media (min-width: 900px) {
