@@ -22,12 +22,25 @@
         } catch (e) {
         }
     </script>
+
+    <script>(function () {
+        var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = 'typef_orm', b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+        if (!gi.call(d, id)) {
+            js = ce.call(d, 'script');
+            js.id = id;
+            js.src = b + 'share.js';
+            q = gt.call(d, 'script')[0];
+            q.parentNode.insertBefore(js, q)
+        }
+    })()</script>
+
 </head>
 <body class='home' data-spy='scroll' data-target='.navbar'>
 <div class='navbar navbar-fixed-top'>
     <div class='navbar-inner'>
         <div class='container-fluid'>
-            <a class='btn btn-default pull-right top-apply' href='https://makerssweden.typeform.com/to/UlIfGg'>Ansök
+            <a class='typeform-share link btn btn-default pull-right top-apply'
+               href='https://makerssweden.typeform.com/to/UlIfGg' data-mode="2" target="_blank">Ansök
                 nu</a>
             <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse' href='#'>
                 <span class='icon-bar'></span>
@@ -314,7 +327,8 @@
                     <hr>
                     <p>
                         Från Model-View-Controller till Test Driven Development. Vi lär dig hur man utvecklar mjukvara
-                        men även hur man skriver vacker kod enligt bästa praxis som baseras på andra programmerares tidigare
+                        men även hur man skriver vacker kod enligt bästa praxis som baseras på andra programmerares
+                        tidigare
                         erfarenheter - saker du kan inte lära dig själv.
                     </p>
                 </div>
@@ -753,8 +767,8 @@
         <div class='panel panel-red center_panel'>
             <div class='row-fluid'>
                 <div class='span12'>
-                    <a class='btn btn-large btn-white' href='https://makerssweden.typeform.com/to/UlIfGg'
-                       target='_blank'>Ansök nu</a>
+                    <a class='typeform-share link btn btn-large btn-white'
+                       href='https://makerssweden.typeform.com/to/UlIfGg' data-mode="2" target="_blank">Ansök nu</a>
                 </div>
             </div>
         </div>
