@@ -7836,7 +7836,7 @@ body {
 
 /* line 4, ../../views/scss/_global.sass */
 h1, h2, h3, h4, h5, h6 {
-    font-family: futura-pt, Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #a91d2a;
     font-weight: 300;
 }
@@ -9104,7 +9104,7 @@ a:hover {
     text-align: center;
     border: none;
     font-size: 24px;
-    font-family: futura-pt, Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     cursor: pointer;
     color: #a91d2a;
     font-size: 1.1875rem;
@@ -9937,7 +9937,7 @@ li.network-company img {
     height: 100px;
     color: white;
     background-color: #a91d2a;
-    font-family: futura-pt, Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 5rem;
     font-weight: 300;
     line-height: 1.3;
@@ -10482,7 +10482,7 @@ textarea {
 .meet-grads .grad-name {
     text-align: center;
     background: rgba(255, 255, 255, 0);
-    font-family: futura-pt, Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #0c343e;
     font-weight: 400;
     font-size: 25px;

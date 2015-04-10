@@ -135,7 +135,7 @@
 
 body.home {
     color: #5e5e5e;
-    font-family: "proxima-nova", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
     line-height: 30px;
     background: url("../images/home/dark_geometric.png");
@@ -148,7 +148,7 @@ body.home {
 }
 
 .home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
-    font-family: "futura-pt", Futura, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
     text-align: center;
     color: #525252;
@@ -361,7 +361,7 @@ body.home {
 }
 
 .home .accordion-heading a {
-    font-family: "futura-pt", Futura, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -559,7 +559,7 @@ body.home {
 
 .home .navbar .nav > li > a {
     color: #af1729;
-    font-family: "futura-pt", Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     line-height: 30px;
 }
