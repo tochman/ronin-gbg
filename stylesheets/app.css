@@ -8822,8 +8822,9 @@ a:hover {
 }
 
 .structure-section {
-    padding-left: 80px !important;
+    margin-left: 80px !important;
 }
+
 /* line 2, ../../views/scss/homepage/_structure.sass */
 .structure-section .structure-header {
     background-color: white;
