@@ -759,8 +759,14 @@ body.home {
     text-align: right;
 }
 
-.home #course-structure b {
+#course-structure b {
     color: #cc4242;
+}
+#course-structure h1,  #course-structure h2, #course-structure h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+     color: #cc4242 !important;
 }
 
 .home #step h3:after, .home #step h3:before, .home #pair h3:after, .home #pair h3:before, .home #mentor h3:after, .home #mentor h3:before {
