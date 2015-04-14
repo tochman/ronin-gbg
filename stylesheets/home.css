@@ -9,6 +9,13 @@
     background-color: #ab1a26 !important;
 }
 
+.video {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -40px !important;
+}
+
+
 @media only screen and (width: 979px) {
     .home .navbar-inner > .container-fluid .btn-default {
         margin: 5px 0 0 0;

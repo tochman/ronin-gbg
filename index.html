@@ -8,6 +8,7 @@
     <title>Makers Academy Sweden</title>
     <link href='favicon.png' rel='icon' type='image/png'>
     <link href='stylesheets/app.css' rel='stylesheet' type='text/css' media="screen, projection">
+
     <link href='stylesheets/home.css' rel='stylesheet' type='text/css' media="screen, projection">
     <link href='stylesheets/bootstrap.min.css' rel='stylesheet' media="screen, projection">
     <link href='stylesheets/bootstrap-responsive.min.css' rel='stylesheet' media="screen, projection">
@@ -55,7 +56,8 @@
                         </a>
                     </li>
                     <li class='visible-phone'>
-                        <a class='typeform-share link btn btn-default pull-right top-apply' style="color: #e4e6e5 !important;"
+                        <a class='typeform-share link btn btn-default pull-right top-apply'
+                           style="color: #e4e6e5 !important;"
                            href='https://makerssweden.typeform.com/to/UlIfGg' data-mode="2" target="_blank">Jag är
                             intresserad</a>
                     </li>
@@ -64,7 +66,9 @@
         </div>
     </div>
     <div id='reveal-bar'>
-        Har du frågor? Kontakta Thomas på <a href='tel:0723612527'>0723 612527</a>
+        Har du frågor? Maila <a href="mailto: thomas@makersacademy.se">Thomas</a> eller <a
+            href="mailto: daniel.albinsson@makersacademy.se">Daniel</a> eller ring <a href='tel:0723612527'>0723
+        612527</a>
     </div>
 </div>
 <div id='background_header_image'></div>
@@ -76,10 +80,23 @@
 
     <div id='header-subtitle'>
         <h1 class='site_tites' id='site_subtitle'>
-            på 16 veckor
+            på 12 veckor
         </h1>
     </div>
     <h2>på en intensiv camp med andra högmotiverade deltagare</h2>
+
+    <div class="row video">
+        <div class="youtube play-button" id="my-modal-link" rel="kO_UnUUfBvo">
+            <div class="text-left">
+                TITTA PÅ
+            </div>
+            <div class="text-right">
+                VIDEO
+            </div>
+        </div>
+    </div>
+
+
 </div>
 <div id='site_container_margin'>
     <div id='site_container'>
@@ -92,23 +109,20 @@
                     <h3>Vad är Makers Academy?</h3>
 
                     <p>
-                        Makers Academy är en 12 veckor lång, <strong>heltidsprogram</strong> inom webbutveckling som
-                        föregås av en 4
-                        veckor lång <strong>förberedande kurs</strong>. Upplägger med 16 veckor lång <strong>intesiv och
-                        praktiskt inriktad camp</strong>, ger
-                        dig grunderna du behöver för att kunna skapa, utveckla och sjösätta webbaserade applikationer.
+                        Makers Academy är en <strong>12 veckor lång heltidsprogram</strong> inom webbutveckling som
+                        föregås av en <strong>4 veckor lång förberedande kurs</strong>. Upplägger med 16 veckor lång
+                        <strong>intensiv och praktiskt inriktad camp</strong>, ger dig grunderna du behöver för att
+                        kunna skapa, utveckla och sjösätta webbaserade applikationer.
                     </p>
 
                     <p>
                         Makers Academy har sedan starten med stor framgång utbildat över 300 deltagare. Från centrala
                         London's Silicon Roundabout med Storbritanines främsta teknikföretag, är det nu dax för Makers
-                        Academy Göteborg att ta emot sin första kull av deltagare som vill ta steget in i it-branschen.
+                        Academy Sweden att ta emot sin första kull av deltagare som vill ta steget in i it-branschen.
                     </p>
 
                     <p>
-                        <strong>Den 22 juni</strong> startar vi den första omgången av MakersAcademy Göteborg i
-                        samarbete med
-                        <a href='http://www.makersacademy.com' target='_blank'>Makers Academy i London</a>.
+                        <strong>Den 22 juni startar vi den första omgången av Makers Academy i Göteborg.</strong>
                     </p>
 
                     <!--p>
@@ -877,21 +891,42 @@
 </footer>
 <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'></script>
 <script src='javascripts/bootstrap.min.js'></script>
+<script src='javascripts/bootstrap.youtubepopup.js'></script>
 <script src='javascripts/jquery.timeago.js'></script>
 <script src='javascripts/makers.js'></script>
 <script src='javascripts/tweetable.jquery.js'></script>
 <script src='javascripts/waypoints.min.js'></script>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-47795185-2', 'auto');
     ga('send', 'pageview');
 
 </script>
-</body>
-</html>
+
+<script>
+    $('#my-modal-link').click(function () {
+        $(".youtube").YouTubeModal({
+            autoplay: 1,
+            width: 560,
+            height: 315
+        });
+    });
+
+</script>
+</script>
+</
+body >
+< / html >
 
 <!-- Localized -->
