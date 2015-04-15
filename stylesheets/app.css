@@ -9106,18 +9106,21 @@ a:hover {
 /* line 11, ../../views/scss/homepage/_market.sass */
 .market ul li {
     width: 100%;
-    height: 17% !important;
+    /*height: 17% !important;*/
     list-style: none;
     border-bottom: 1px solid #dddddd;
     min-height: 60px;
+    line-height: 1.75 !important;
+    margin-top: 10px !important;
+    padding-bottom: 10px !important;
 
 }
 
-/* line 18, ../../views/scss/homepage/_market.sass */
+/* line 18, ../../views/scss/homepage/_market.sass
 .market .columns:last-child li:last-child, .market li.network-company:last-child li:last-child, .market .speaker:last-child li:last-child {
     border-bottom: none;
 }
-
+*/
 @media only screen and (min-width: 64.063em) {
     .market {
         background-color: white;

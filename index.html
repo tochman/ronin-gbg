@@ -44,16 +44,18 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
     <script src='https://cdn.optimizely.com/js/302764373.js'></script>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-    <script>(function () {
-        var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = 'typef_orm', b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-        if (!gi.call(d, id)) {
-            js = ce.call(d, 'script');
-            js.id = id;
-            js.src = b + 'share.js';
-            q = gt.call(d, 'script')[0];
-            q.parentNode.insertBefore(js, q)
-        }
-    })()</script>
+    <script>
+        (function () {
+            var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = 'typef_orm', b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+            if (!gi.call(d, id)) {
+                js = ce.call(d, 'script');
+                js.id = id;
+                js.src = b + 'share.js';
+                q = gt.call(d, 'script')[0];
+                q.parentNode.insertBefore(js, q)
+            }
+        })()
+    </script>
 
 </head>
 <body class='home' data-spy='scroll' data-target='.navbar'>
@@ -110,9 +112,15 @@
             på 12 veckor
         </h1>
     </div>
-    <h2>på en intensiv camp med andra högmotiverade deltagare</h2>
+    <div style=" margin-right: 60px !important; ">
+        <h2 style="font-size: 28px; font-weight: normal;text-shadow: rgba(255,255,255,0.7) 0px
+         2px 2px;">Europas
+            ledande developer bootcamp kommer nu till Sverige. Lär dig principerna för att starta din karriär som
+            webbutvecklare. Makers Academy har utexaminerat över 300 elever som har gått vidare till sina drömjobb.
+        </h2>
+    </div>
 
-    <div class="row video">
+    <!--div class="row video">
         <div class="youtube play-button" id="my-modal-link" rel="kO_UnUUfBvo">
             <div class="text-left">
                 TITTA PÅ
@@ -122,22 +130,7 @@
             </div>
         </div>
 
-    </div>
-    <div class="row-fluid video" style="margin-top: 20px !important;">
-        <div class="visible-desktop visible-tablet">
-            <div class="span4">
-                <a href="https://www.youtube.com/watch?v=HlPqlcNdTDE" class="youtube btn btn-default pull-right"
-                   rel="HlPqlcNdTDE">Tidigare deltagare</a>
-            </div>
-            <div class="span4">
-                <a href="https://www.youtube.com/watch?v=2qPnr_0IJZ4" class="youtube btn btn-default" rel="2qPnr_0IJZ4">Förberedelser</a>
-            </div>
-            <div class="span4">
-                <a href="https://www.youtube.com/watch?v=SRaGvG8C0i4" class="youtube btn btn-default pull-left"
-                   rel="SRaGvG8C0i4">Arbetsgivare</a>
-            </div>
-        </div>
-    </div>
+    </div-->
 
 
 </div>
@@ -171,6 +164,26 @@
 
                 </div>
             </div>
+            <div class="row-fluid video visible-desktop visible-tablet"
+                 style="margin-left: 60px!important; margin-top: 40px !important;">
+                <div class="visible-desktop visible-tablet">
+                    <div class="span4">
+                        <a href="https://www.youtube.com/watch?v=HlPqlcNdTDE"
+                           class="youtube btn btn-default "
+                           rel="HlPqlcNdTDE">Tidigare deltagare</a>
+                    </div>
+                    <div class="span4">
+                        <a href="https://www.youtube.com/watch?v=2qPnr_0IJZ4" class="youtube btn btn-default "
+                           rel="2qPnr_0IJZ4">Förberedelser</a>
+                    </div>
+                    <div class="span4">
+                        <a href="https://www.youtube.com/watch?v=SRaGvG8C0i4"
+                           class="youtube btn btn-default "
+                           rel="SRaGvG8C0i4">Arbetsgivare</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div class="row market">
@@ -186,12 +199,14 @@
                     <li><strong>Entreprenörer</strong> som jobbar med tekniska innovationer och som vill förstärka sin
                         kompetens.
                     </li>
-                    <li><strong>Projektledare</strong> som vill bredda sin kompetens förstå utvecklingsprocessen.</li>
+                    <li><strong>Projektledare</strong> som vill bredda sin kompetens och förstå utvecklingsprocessen.
+                    </li>
                 </ul>
             </div>
             <div class="large-4 columns list">
                 <ul class="potential-customers">
-                    <li><strong>Yrkesfolk</strong> som vill genomföra ett karriärbyte ta steget in i IT-branshen.</li>
+                    <li><strong>Yrkesfolk</strong> som vill genomföra ett karriärbyte och ta steget in i IT-branshen.
+                    </li>
                     <li><strong>Studenter</strong> inom Computer Science som behöver praktisk erfarenhet.</li>
                     <li><strong>Skoltrötta</strong> som inte vill studera på universitetet men ändå kunna jobba i en
                         spännande och fartfylld bransch.
@@ -534,7 +549,7 @@
                 <div class='offset1 span5'>
                     <p>
                         <b>Steg för steg</b>
-                        - Applikationsutveckling är komplext. Ett av de största utmaningar som du kan komma att tampas
+                        - Applikationsutveckling är komplext. En av de största utmaningar som du kan komma att tampas
                         med när du lär dig att koda, är att veta i vilken ordning du ska lära dig saker och ting i. Ska
                         du
                         lära dig HTML först och sedan Ruby? Eller kanske börja med Javascript och sedan ge dig på Rails?
@@ -607,16 +622,17 @@
                     fungerar och tänker. Vi är en katalysator för förändring, en plats där människor förändrar sina
                     liv."</p>
 
-                <p class="pull-right">Evgeny Shadchnev, Founder Makers Academy<br/>
+                <p class="pull-right"><strong>Evgeny Shadchnev</strong>, Founder Makers Academy<br/>
                     <a href="http://blog.makersacademy.com/makers-academy-vision/" target="_blank">Läs hela artikeln
                         (engelska)</a>
                 </p>
 
-                <h2 class='span12'>Sagt om Makers Academy av tidigare deltagare</h2>
+
             </div>
         </div>
         <div class='panel panel-dark' id='panel-testimonials'>
-            <div class='overlay'></div>
+            <div class='overlay'><h2 style="color: rgba(255,255,255, 0.6) !important;">Sagt om Makers Academy av
+                tidigare deltagare</h2></div>
             <div class='row-fluid'>
                 <div class='happycustomer'>
                     <div class='face'>
@@ -701,6 +717,7 @@
                             </div>
                             <div class='price'>5 500 SEK
                             </div>
+
                         </li>
                         <li class='basic'>
                             <div class='info'>
@@ -717,7 +734,7 @@
                                     svenska är engelska vårt arbetsspråk. Den mängd av engagemang du tillför till
                                     programmet återspeglar sig i dina resultat.</p>
                             </div>
-                            <div class='price'>64 000 SEK
+                            <div class='price'>74 000 SEK
                             </div>
                         </li>
                     </ul>
@@ -729,9 +746,9 @@
                 <div class='offset1 span10'>
                     <h3 class='text-center'>
                         <strong>Förberedande kurs:</strong>
-                        22 Juni 2015 <br/>
+                        29 Juni 2015 <br/>
                         <strong>Kursstart:</strong>
-                        20 Juli 2015<br/>
+                        27 Juli 2015<br/>
                         <strong>Examination:</strong>
                         9 Oktober 2015
                     </h3>
@@ -815,7 +832,7 @@
                 <p>
                     Följ oss
                     <br/>
-                    <a href='http://www.twitter.com/thomasochman' target='_blank'>@MakersAcademySWE</a>
+                    <a href='http://www.twitter.com/MakersSweden' target='_blank'>@MakersSweden</a>
                 </p>
             </div>
             <div class='span3 hidden-phone' id='twitter-stream'>

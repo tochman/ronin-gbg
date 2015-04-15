@@ -165,6 +165,10 @@ body.home {
     width: 9em;
 }
 
+.home strong {
+    color: #a91d2a !important;
+}
+
 .home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
@@ -1390,6 +1394,7 @@ body.home {
     .home #pricing .price {
         padding-bottom: 30px;
     }
+
 }
 
 /* Localized */
