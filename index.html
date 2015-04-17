@@ -123,7 +123,7 @@
         </h2>
     </div>
     <div class="row video">
-        <div class="youtube play-button" id="my-modal-link" rel="BpDWJbpta6U">
+        <div class="youtube play-button" id="my-modal-link" rel="BpDWJbpta6U" onerror='alert("Connection dead");'>
             <div class="text-left">
                 TITTA PÅ
             </div>
@@ -871,11 +871,16 @@
 
 <script>
     $('#my-modal-link').click(function () {
-        $(".youtube").YouTubeModal({
-            autoplay: 1,
-            width: 560,
-            height: 315
-        });
+        if(navigator.onLine){
+            $(".youtube").YouTubeModal({
+                autoplay: 1,
+                width: 560,
+                height: 315
+            });
+        } else {
+           //* alert('There is no internet connection.');
+        }
+
     });
 
     $(function () {
