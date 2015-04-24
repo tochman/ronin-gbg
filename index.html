@@ -97,7 +97,7 @@
 <div class='navbar navbar-fixed-top'>
     <div class='navbar-inner'>
         <div class='container-fluid'>
-            <a class='typeform-share link btn btn-default pull-right top-apply'
+            <a class='typeform-share link btn btn-default pull-right top-apply' id="top-apply"
                href='https://makerssweden.typeform.com/to/UlIfGg' data-mode="2" target="_blank">Jag är
                 intresserad</a>
             <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse' href='#'>
@@ -812,7 +812,7 @@
         <div class='panel panel-red center_panel'>
             <div class='row-fluid'>
                 <div class='span12'>
-                    <a class='typeform-share link btn btn-large btn-white'
+                    <a class='typeform-share link btn btn-large btn-white' id="bottom-apply"
                        href='https://makerssweden.typeform.com/to/UlIfGg' data-mode="2" target="_blank">
                         Jag är intresserad...
                     </a>
@@ -936,6 +936,17 @@
             height: 315
         });
     });
+
+    /*top-apply bottom-apply */
+    $('#top-apply').click(function () {
+        ga('send', 'event', 'Apply', 'Click', 'Top');
+    });
+
+    $('#bottom-apply').click(function () {
+        ga('send', 'event', 'Apply', 'Click', 'Bottom');
+
+    });
+    
 
 
 
