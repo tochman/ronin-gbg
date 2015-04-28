@@ -112,8 +112,19 @@
             <div class='nav-collapse collapse'>
                 <ul class='nav'>
                     <li>
-                        <a class='top-blog' href='http://blog.makersacademy.com/' target='_blank'>Nyheter</a>
+                        <a class='top-blog' id="student-projects" href='http://www.makersacademy.com/student-projects' target='_blank'>Vad vill du bygga?</a>
                     </li>
+
+                    <li>
+                        <a class='top-blog' id="curriculum" href='http://www.makersacademy.com/curriculum' target='_blank'>Läroplan</a>
+                    </li>
+
+                    <li>
+                        <a class='top-blog' id="blog" href='http://blog.makersacademy.com/' target='_blank'>Nyheter</a>
+                    </li>
+
+
+
                     <li class='visible-desktop'>
                         <a href='http://www.twitter.com/MakersSweden' target='_blank'>
                             <div class='m-icon-twitter'></div>
@@ -277,9 +288,7 @@
                     <p>
                         Du får lära dig moderna lean startup principer och agila metoder som används inom
                         mjukvaruutveckling samt bästa praxis som t ex parprogrammering, dagliga stand-ups, Kanban och
-                        utveckling i team. Vi går praktiskt igenom hur ett projektteam hanterar kravspecifikation,
-                        design,
-                        utveckling, test, integration och driftsättning av en applikation inom en iteration.
+                        utveckling i team. 
                     </p>
                 </div>
             </div>
@@ -937,7 +946,7 @@
         });
     });
 
-    /*top-apply bottom-apply */
+    /* Google Analytics Goals */
     $('#top-apply').click(function () {
         ga('send', 'event', 'Apply', 'Click', 'Top');
     });
@@ -947,9 +956,20 @@
 
     });
 
+    $('#student-projects').click(function () {
+        ga('send', 'event', 'Links', 'Click', 'Projects');
 
+    });
 
+    $('#curriculum').click(function () {
+        ga('send', 'event', 'Links', 'Click', 'Curriculum');
 
+    });
+
+    $('#blog').click(function () {
+        ga('send', 'event', 'Links', 'Click', 'Blog');
+
+    });
 </script>
 
 
