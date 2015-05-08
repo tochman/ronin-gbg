@@ -253,6 +253,8 @@ body.home {
 .home #site_container {
     background: #fff none;
     border-top: 4px solid #AF1729;
+    /** Adding a top margin to compensate for remover player control**/
+    margin-top: 150px;
 }
 
 .home .dots_for_bullets {
@@ -1402,6 +1404,21 @@ body.home {
         margin-right: 20px;
     }
 
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 40%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
 }
 
 /* Localized */

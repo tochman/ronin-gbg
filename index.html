@@ -83,7 +83,7 @@
     <script>
         var _prum = [['id', '5538ed6cabe53d122e8a294c'],
             ['mark', 'firstbyte', (new Date()).getTime()]];
-        (function() {
+        (function () {
             var s = document.getElementsByTagName('script')[0]
                     , p = document.createElement('script');
             p.async = 'async';
@@ -112,17 +112,18 @@
             <div class='nav-collapse collapse'>
                 <ul class='nav'>
                     <li>
-                        <a class='top-blog' id="student-projects" href='http://www.makersacademy.com/student-projects' target='_blank'>Vad vill du bygga?</a>
+                        <a class='top-blog' id="student-projects" href='http://www.makersacademy.com/student-projects'
+                           target='_blank'>Vad vill du bygga?</a>
                     </li>
 
                     <li>
-                        <a class='top-blog' id="curriculum" href='http://www.makersacademy.com/curriculum' target='_blank'>Läroplan</a>
+                        <a class='top-blog' id="curriculum" href='http://www.makersacademy.com/curriculum'
+                           target='_blank'>Läroplan</a>
                     </li>
 
                     <li>
                         <a class='top-blog' id="blog" href='http://blog.makersacademy.com/' target='_blank'>Nyheter</a>
                     </li>
-
 
 
                     <li class='visible-desktop'>
@@ -168,7 +169,7 @@
          2px 2px;">Europas ledande bootcamp för blivande webbutvecklare kommer nu till Sverige.
         </h2>
     </div>
-    <div class="row video">
+    <!--div class="row video">
         <div class="youtube play-button" id="my-modal-link" rel="BpDWJbpta6U" onerror='alert("Connection dead");'>
             <div class="text-left">
                 TITTA PÅ
@@ -177,14 +178,19 @@
                 VIDEO
             </div>
         </div>
-    </div>
+    </div-->
 </div>
 <div id='site_container_margin'>
     <div id='site_container'>
         <div class='panel' id='overview'>
             <div class='row-fluid'>
-                <div class='span6 img-container'>
-                    <img alt='' src='images/home/mac.jpg'>
+                <div class='span6 video-container' id="my-modal-link">
+                    <!--img alt='' src='images/home/mac.jpg'-->
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/BpDWJbpta6U?rel=0&amp;controls=0&amp;showinfo=0"
+                            frameborder="0" allowfullscreen></iframe>
+
+
                 </div>
                 <div class='span5'>
                     <h3>Vad är Makers Academy?</h3>
@@ -288,7 +294,7 @@
                     <p>
                         Du får lära dig moderna lean startup principer och agila metoder som används inom
                         mjukvaruutveckling samt bästa praxis som t ex parprogrammering, dagliga stand-ups, Kanban och
-                        utveckling i team. 
+                        utveckling i team.
                     </p>
                 </div>
             </div>
