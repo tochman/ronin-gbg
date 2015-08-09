@@ -1,0 +1,386 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
+    <meta name="keywords"
+          content="Makers Academy Sweden, parprogrammering,lär dig att koda, Ruby on Rails, HTML5, jQuery, agil systemutveckling">
+    <meta content='Makers Academy Sweden' name='description'>
+
+    <meta name="description"
+          content="Makers Academy är ett 12 veckors heltidsprogram inom webbutveckling som föregås av en 4 veckors förberedande kurs. Upplägget med 16 veckors intensiv och praktiskt inriktad camp, ger dig grunderna du behöver för att kunna skapa, utveckla och sjösätta webbaserade applikationer.">
+    <meta name="author" content="Makers Academy Sweden">
+    <meta name="copyright" content="Makers Academy/Makers Academy Sweden">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="application-name" content="Makers Academy Sweden - Lär dig att koda på 12 veckor">
+
+    <meta property="og:title" content="Makers Academy Sweden - Lär dig att koda på 12 veckor"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.makersacademy.se/"/>
+    <meta property="og:site_name" content="Makers Academy Sweden"/>
+    <meta property="og:description"
+          content="Makers Academy är ett 12 veckors heltidsprogram inom webbutveckling som föregås av en 4 veckors förberedande kurs. Upplägget med 16 veckors intensiv och praktiskt inriktad camp, ger dig grunderna du behöver för att kunna skapa, utveckla och sjösätta webbaserade applikationer.">
+    <meta property="og:image" content="http://www.makersacademy.se/images/home/site-image.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Makers Academy Sweden - Lär dig att koda på 12 veckor"/>
+    <meta name="twitter:url" content="http://www.makesacademy.se/">
+    <meta name="twitter:site" content="@MakersAcademySE">
+    <meta name="twitter:image:src" content="http://www.agileventures.org/images/home/site-image.png">
+    <meta name="twitter:description"
+          content="Makers Academy är ett 12 veckors heltidsprogram inom webbutveckling som föregås av en 4 veckors förberedande kurs. Upplägget med 16 veckors intensiv och praktiskt inriktad camp, ger dig grunderna du behöver för att kunna skapa, utveckla och sjösätta webbaserade applikationer.">
+
+    <meta name="google-site-verification" content="nOFNu-waESHjyWTDPk51TrTypZK7d3Fkaxa77-41KGU"/>
+    <title>Makers Academy Sweden</title>
+    <link href='favicon.png' rel='icon' type='image/png'>
+    <link href='stylesheets/app.css' rel='stylesheet' type='text/css' media="screen, projection">
+
+    <link href='stylesheets/home.css' rel='stylesheet' type='text/css' media="screen, projection">
+    <link href='stylesheets/bootstrap.min.css' rel='stylesheet' media="screen, projection">
+    <link href='stylesheets/bootstrap-responsive.min.css' rel='stylesheet' media="screen, projection">
+    <link href='http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css' rel='stylesheet'
+          media="screen, projection">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+    <script src='https://cdn.optimizely.com/js/302764373.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <script type="text/javascript" src="javascripts/jquery.payment.js"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v1/"></script>
+    <script>
+        (function () {
+            var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = 'typef_orm', b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+            if (!gi.call(d, id)) {
+                js = ce.call(d, 'script');
+                js.id = id;
+                js.src = b + 'share.js';
+                q = gt.call(d, 'script')[0];
+                q.parentNode.insertBefore(js, q)
+            }
+        })()
+    </script>
+
+    <!-- Facebook pixel code -->
+
+    <script>(function () {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+        }
+        _fbq.push(['addPixelId', '1596256623950979']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+    <noscript>
+        <img height="1" width="1" alt="" style="display:none"
+             src="https://www.facebook.com/tr?id=1596256623950979&amp;ev=PixelInitialized"/>
+    </noscript>
+
+    <!-- Pingdom RUM code -->
+    <script>
+        var _prum = [['id', '5538ed6cabe53d122e8a294c'],
+            ['mark', 'firstbyte', (new Date()).getTime()]];
+        (function () {
+            var s = document.getElementsByTagName('script')[0]
+                    , p = document.createElement('script');
+            p.async = 'async';
+            p.src = '//rum-static.pingdom.net/prum.min.js';
+            s.parentNode.insertBefore(p, s);
+        })();
+    </script>
+
+    <style type="text/css" media="screen">
+        .has-error input {
+            border-width: 2px;
+        }
+        .validation.text-danger:after {
+            content: 'Validation failed';
+        }
+        .validation.text-success:after {
+            content: 'Validation passed';
+        }
+    </style>
+
+    <script>
+        jQuery(function($) {
+            $('[data-numeric]').payment('restrictNumeric');
+            $('.cc-number').payment('formatCardNumber');
+            $('.cc-exp').payment('formatCardExpiry');
+            $('.cc-cvc').payment('formatCardCVC');
+            $.fn.toggleInputError = function(erred) {
+                this.parent('.form-group').toggleClass('has-error', erred);
+                return this;
+            };
+            $('form').submit(function(e) {
+                e.preventDefault();
+                var cardType = $.payment.cardType($('.cc-number').val());
+                $('.cc-number').toggleInputError(!$.payment.validateCardNumber($('.cc-number').val()));
+                $('.cc-exp').toggleInputError(!$.payment.validateCardExpiry($('.cc-exp').payment('cardExpiryVal')));
+                $('.cc-cvc').toggleInputError(!$.payment.validateCardCVC($('.cc-cvc').val(), cardType));
+                $('.cc-brand').text(cardType);
+                $('.validation').removeClass('text-danger text-success');
+                $('.validation').addClass($('.has-error').length ? 'text-danger' : 'text-success');
+            });
+        });
+    </script>
+</head>
+<body class='home' data-spy='scroll' data-target='.navbar'>
+<div class='navbar navbar-fixed-top'>
+    <div class='navbar-inner'>
+        <div class='container-fluid'>
+            <a class='typeform-share link btn btn-default pull-right top-apply' id="top-apply"
+               href='https://makerssweden.typeform.com/to/UlIfGg' data-mode="2" target="_blank">Ansök nu</a>
+            <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse' href='#'>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+            </a>
+            <a href='index.html' id='brand'>
+                <img alt='Makers Academy' src='images/home/MAlogo.png'>
+            </a>
+
+            <div class='nav-collapse collapse'>
+                <ul class='nav'>
+                    <li>
+                        <a class='top-blog' id="student-projects" href='http://www.makersacademy.com/student-projects'
+                           target='_blank'>Vad vill du bygga?</a>
+                    </li>
+
+                    <li>
+                        <a class='top-blog' id="curriculum" href='http://www.makersacademy.com/curriculum'
+                           target='_blank'>Läroplan</a>
+                    </li>
+
+                    <li>
+                        <a class='top-blog' id="employers" href='https://makerssweden.typeform.com/to/SQcaqh'
+                           data-mode="2" target="_blank">För arbetsgivare</a>
+                    </li>
+
+                    <!--li>
+                        <a class='top-blog' id="blog" href='http://blog.makersacademy.com/' target='_blank'>Nyheter</a>
+                    </li-->
+
+                    <li class='visible-desktop'>
+                        <a href='http://www.twitter.com/MakersSweden' target='_blank'>
+                            <div class='m-icon-twitter'></div>
+                        </a>
+                    </li>
+                    <li class='visible-phone'>
+                        <a class='typeform-share link btn btn-default pull-right top-apply'
+                           style="color: #e4e6e5 !important;"
+                           href='https://makerssweden.typeform.com/to/UlIfGg' data-mode="2" target="_blank">Ansök nu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id='reveal-bar'>
+        Har du frågor? Maila <a href="mailto: thomas@makersacademy.se">Thomas</a> eller <a
+            href="mailto: daniel.albinsson@makersacademy.se">Daniel</a> eller ring <a href='tel:0723612527'>0723
+        612527</a>
+    </div>
+</div>
+<div id='background_header_image'></div>
+<div id='header_title_box'>
+    <div class="container hidden-phone" style="margin-top: 50px;">
+        <h2 style="color: white; font-size: 38px; font-weight: normal;text-shadow: rgba(0,0,0,0.7) 0px
+         2px 2px;">BETALNING
+        </h2>
+    </div>
+    <div class="container hidden-desktop hidden-tablet">
+        <h2 style="color: white; font-size: 28px; font-weight: normal;text-shadow: rgba(0,0,0,0.7) 0px
+         2px 2px;">BETALNING
+        </h2>
+    </div>
+</div>
+<div id='site_container_margin'>
+    <div id='site_container'>
+        <div class='panel' id='overview'>
+            <div class='row-fluid'>
+                <div class='span12'>
+                    <h1>
+                        jquery.payment demo
+                    </h1>
+                    <p>A general purpose library for building credit card forms, validating inputs and formatting numbers.</p>
+                    <form novalidate autocomplete="on" method="POST">
+                        <div class="form-group">
+                            <label for="cc-number" class="control-label">Card number formatting <small class="text-muted">[<span class="cc-brand"></span>]</small></label>
+                            <input id="cc-number" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cc-exp" class="control-label">Card expiry formatting</label>
+                            <input id="cc-exp" type="tel" class="input-lg form-control cc-exp" autocomplete="cc-exp" placeholder="•• / ••" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cc-cvc" class="control-label">Card CVC formatting</label>
+                            <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="•••" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="numeric" class="control-label">Restrict numeric</label>
+                            <input id="numeric" type="tel" class="input-lg form-control" data-numeric>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+
+                        <h2 class="validation"></h2>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class='container-fluid'>
+        <div class='row-fluid'>
+            <div class='span4'>
+                <ul class='footer-links'>
+                    <li>
+                        <a href='http://blog.makersacademy.com/learning-to-program-is-a-full-time-job'>Why You Need a
+                            Full Time Bootcamp</a>
+                    </li>
+                    <li>
+                        <a href='projects/index.html'>Student Projects</a>
+                    </li>
+                    <li>
+                        <a href='http://blog.makersacademy.com/how-we-teach-at-makers-academy'>How We Teach Student
+                            Developers</a>
+                    </li>
+                    <li>
+                        <a href='http://blog.makersacademy.com/why-learning-to-code-is-hard'>Why its Hard to Learn to
+                            Code</a>
+                    </li>
+                    <li>
+                        <a href='http://blog.makersacademy.com/why-im-building-makers-academy'>Why We Built Makers</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class='span4'>
+                <div class='vcard'>
+                    <p class='adr'>
+                        <span class='organization-name'>Acacia Labs AB</span>
+                        <br>
+                        <span class='extended-address'>Makers Academy Sweden</span>
+                        <br>
+                        <span class='extended-address'>Holtermasgatan 1</span>
+                        <br>
+                        <span class='postal-code'>411 29</span>
+
+                        <span class='locality'>Göteborg</span>
+                        <br>
+                        <span class='country-name'>Sweden</span>
+                    </p>
+                </div>
+            </div>
+            <div class='span4'>
+                <p>
+                    Kontakta oss
+                    <br/>
+                    <a class='email' href='mailto: info@makersacademy.se'>info@makersacademy.se</a>
+                </p>
+
+                <p>
+                    Följ oss
+                    <br/>
+                    <a href='http://www.twitter.com/MakersSweden' target='_blank'>@MakersSweden</a>
+                </p>
+
+                <p>
+                    &copy; 2015 Acacia Labs AB with permission of Makers Academy, Ltd.
+                    <br>
+                    All Rights Reserved/Alla rättigheter förbehållna.
+                </p>
+            </div>
+            <!--div class='span3 hidden-phone' id='twitter-stream'>
+                <img class='twitter-footer-icon' src='images/home/twitter-icon.png'>
+            </div-->
+        </div>
+    </div>
+</footer>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'></script>
+<script src='javascripts/bootstrap.min.js'></script>
+<script src='javascripts/bootstrap.youtubepopup.js'></script>
+<script src='javascripts/jquery.timeago.js'></script>
+<script src='javascripts/makers.js'></script>
+<script src='javascripts/tweetable.jquery.js'></script>
+<script src='javascripts/waypoints.min.js'></script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47795185-2', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<script>
+    $('#my-modal-link').click(function () {
+        if (navigator.onLine) {
+            $(".youtube").YouTubeModal({
+                autoplay: 1,
+                width: 560,
+                height: 315
+            });
+            ga('send', 'event', 'Video', 'ViewCommercial');
+        } else {
+            //* alert('There is no internet connection.');
+        }
+
+    });
+
+    $(function () {
+        $(".youtube").YouTubeModal({
+            autoplay: 1,
+            width: 560,
+            height: 315
+        });
+    });
+
+    /* Google Analytics Goals */
+    $('#top-apply').click(function () {
+        ga('send', 'event', 'Apply', 'Click', 'Top');
+    });
+
+    $('#bottom-apply').click(function () {
+        ga('send', 'event', 'Apply', 'Click', 'Bottom');
+
+    });
+
+    $('#student-projects').click(function () {
+        ga('send', 'event', 'Links', 'Click', 'Projects');
+
+    });
+
+    $('#curriculum').click(function () {
+        ga('send', 'event', 'Links', 'Click', 'Curriculum');
+
+    });
+
+    $('#blog').click(function () {
+        ga('send', 'event', 'Links', 'Click', 'Blog');
+
+    });
+</script>
+
+
+</body>
+</html>
+
+<!-- Localized -->
